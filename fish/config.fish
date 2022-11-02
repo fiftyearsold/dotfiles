@@ -12,3 +12,8 @@ if status is-login
         exec startx -- -keeptty
     end
 end
+
+# ibus
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
